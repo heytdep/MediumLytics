@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "MediumLytics Stats",
+  "version": "1.0.0",
+  "description": "...",
+  "short_name": "MediumLyticsStats",
+  "permissions": ["cookies", "storage", "<all_urls>"],
+  "content_security_policy": "script-src 'self' 'sha256-YjurBAxcWtbTIzUOQbATIWEumTZaTd2QBcjuJ2VDgOI='",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "css": ["background.css"],
+      "js": ["background.js"]
+    }
+  ],
+  "browser_action": {
+    "default_title": "MediumLytics Stats",
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  }
+}

@@ -1,0 +1,52 @@
+<head>
+    <title>MediumLyticsStats</title>
+    <link rel="stylesheet" href="background.css">
+</head>
+
+<body>
+
+<div id="heading">
+        <h1><span>MediumLytics</span></h1>
+</div>
+<div class="navbar">
+    <ul>
+        <li><a href="index.html">Views</a></li>
+        <li><a href="claps.html">Claps</a></li>
+        <li><a href="audience.html">Audience</a></li>
+        <li><a href="traffic.html">Traffic</a></li>
+        <li><a href="earnings.html">Earnings</a></li>
+    </ul>
+</div>
+
+<h4 id="last_updated"></h4>
+
+<div style="display: flex" id="class-container">
+    <div class="card">
+        <h2 id="n_usual_fans" class="loader"></h2>
+        <h4>Loyal fans</h4>
+        <span id="viewFansText"></span>
+        <button id="viewFansBtn" class="loader btn-gradient cyan mini" ></button>
+    </div>
+    <div class="card">
+        <h2 id="n_followers" class="loader"></h2>
+        <h4>Followers</h4>
+    </div>
+
+</div>
+
+<div style="display: flex" id="class-container">
+    <div class="card">
+        <h2 id="n_all_fans" class="loader"></h2>
+        <h4>Fans</h4>
+    </div>
+    <div class="card">
+        <h2 id="n_member_fans" class="loader"></h2>
+        <h3 id="perc_member_fans"></h3>
+        <h4>Member Fans</h4>
+    </div>
+</div>
+
+<script src="audience.js"></script>
+<hr>
+<h2><span>Made with <span style="color: #e25555;">&#9829;</span> by <a target="_blank" href="https://tdep.medium.com">Tommaso De Ponti</a></span></h2>
+</body>
