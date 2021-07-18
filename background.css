@@ -94,6 +94,11 @@ a {
     color: cornflowerblue;
 }
 
+
+.footer {
+    color: #005a35;
+}
+
 li a {
     display: block;
     color: white;
