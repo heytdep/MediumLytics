@@ -1,11 +1,13 @@
 {
-  "manifest_version": 2,
-  "name": "MediumLytics Stats",
+  "manifest_version": 3,
+  "name": "MediumLytics - Awesome Stats",
   "version": "1.0.0",
-  "description": "...",
+  "description": "Everything you always missed from Medium Stats and other Extensions to know about your Medium Audience and Traffic is only a few clicks away!",
   "short_name": "MediumLyticsStats",
-  "permissions": ["cookies", "storage", "<all_urls>"],
-  "content_security_policy": "script-src 'self' 'sha256-YjurBAxcWtbTIzUOQbATIWEumTZaTd2QBcjuJ2VDgOI='",
+  "permissions": ["cookies", "storage"],
+  "host_permissions": [
+    "https://medium.com/"
+  ],
   "content_scripts": [
     {
       "matches": ["http://*/*"],
@@ -13,7 +15,12 @@
       "js": ["background.js"]
     }
   ],
-  "browser_action": {
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
     "default_title": "MediumLytics Stats",
     "default_popup": "index.html",
     "default_icon": "icon.png"
