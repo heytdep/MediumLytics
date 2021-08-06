@@ -98,8 +98,8 @@ function getAllStoriesReq() {
             }
 
             window.all_stories = all_stories
-            setTimeout(test, window.all_stories.length*10)
-            setTimeout(concatenateObjects, window.all_stories.length*100)
+            setTimeout(test, window.all_stories.length*5)
+            setTimeout(concatenateObjects, window.all_stories.length*50)
 
 
         })
