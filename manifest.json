@@ -10,6 +10,7 @@
   ],
   "content_scripts": [
     {
+      "matches": ["http://*/*"],
       "css": ["background.css"],
       "js": ["background.js"]
     }
