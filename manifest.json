@@ -4,13 +4,12 @@
   "version": "1.0.0",
   "description": "Everything missing from Medium Stats and other Tools to know about your Medium Audience and Traffic is only a few clicks away!",
   "short_name": "MediumLyticsStats",
-  "permissions": ["cookies", "storage"],
+  "permissions": ["cookies"],
   "host_permissions": [
     "https://medium.com/"
   ],
   "content_scripts": [
     {
-      "matches": ["http://*/*"],
       "css": ["background.css"],
       "js": ["background.js"]
     }
