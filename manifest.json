@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "MediumLytics - Awesome Stats",
   "version": "1.0.0",
-  "description": "Everything you always missed from Medium Stats and other Extensions to know about your Medium Audience and Traffic is only a few clicks away!",
+  "description": "Everything missing from Medium Stats and other Tools to know about your Medium Audience and Traffic is only a few clicks away!",
   "short_name": "MediumLyticsStats",
   "permissions": ["cookies", "storage"],
   "host_permissions": [
