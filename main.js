@@ -8,7 +8,7 @@ const textContent = [
 const textField = document.getElementById('extName');
 
 const typewriter = new Typewriter(textField, {
-    loop: true,
+    loop: false,
     delay: 200,
     cursor: ''
 });
