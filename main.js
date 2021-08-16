@@ -23,7 +23,7 @@ typewriter
 const textField1 = document.querySelector('.subtitle');
 
 const typewriter1 = new Typewriter(textField1, {
-    loop: true,
+    loop: false,
     delay: 200,
     cursor: ''
 });
